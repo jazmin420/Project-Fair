@@ -8,7 +8,7 @@ import { loginAPI, registerAPI } from '../services/allAPI'
 import { tokenAuthContext } from '../Context/TokenAuth'
 
 function Auth({insideRegister}) {
-  const {isAuthoried,setIsAuthorised} = useContext(tokenAuthContext)
+  const {isAuthorised,setIsAuthorised} = useContext(tokenAuthContext)
   const [loginStatus,setLoginStatus] = useState(false)
   const navigate = useNavigate()
   // console.log(insideRegister);
