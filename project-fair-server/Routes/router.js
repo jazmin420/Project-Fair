@@ -1,5 +1,4 @@
 const express = require('express')
-
 const userController = require('../controllers/userController')
 const projectController = require('../controllers/projectController')
 const jwtMiddleware = require('../Middlewares/jwtMiddleware')

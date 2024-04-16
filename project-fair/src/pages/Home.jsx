@@ -5,6 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getHomeProjectAPI } from "../services/allAPI";
+import Header from "../components/Header";
 
 function Home() {
   const [allProjects, setAllProjects] = useState([]);
@@ -41,9 +42,10 @@ function Home() {
   };
   return (
     <>
+    <Header/>
       {/* landing part */}
       <div
-        style={{ minHeight: "100vh", backgroundColor: "#90ee90" }}
+        style={{ minHeight: "100vh" }}
         className="w-100 d-flex justify-content-center align-items-center rounded"
       >
         <div className="container">
@@ -105,7 +107,7 @@ function Home() {
         </div>
       </div>
       <ToastContainer autoClose={3000} theme="colored" />
-    </>
+      </>
   );
 }
 

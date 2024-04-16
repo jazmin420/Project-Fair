@@ -5,9 +5,9 @@ function Footer() {
   return (
     <div
     className="d-flex flex-column align-items-center justify-content-center mt-5 "
-    style={{ width: "100%", height: "300px",backgroundColor:'#90ee90' }}
+    style={{ width: "100%", height: "300px"}}
   >
-    <div className="footer d-flex justify-content-evenly w-100">
+    <div className="footer d-flex justify-content-evenly w-100 border pt-2 bg-primary">
       <div style={{width:'300px'}} className="website">
         <h4 className='fw-bolder text-light'>
         <i style={{height:'25px'}} className="fa-solid fa-hands-holding-circle"></i> Project Fair

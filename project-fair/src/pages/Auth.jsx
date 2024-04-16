@@ -77,7 +77,7 @@ function Auth({insideRegister}) {
     <div style={{width:'100%', height:'100vh'}} className='d-flex justify-content-center align-items-center'>
       <div className="container w-75">
         <Link to={'/'} style={{textDecoration:'none'}}> <i className="fa-solid fa-arrow-left"></i> Back To Home</Link>
-        <div className="card shadow p-5 bg-success">
+        <div className="card shadow p-5 bg-primary">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <img className='w-100' src={authImage} alt="Authentication" />

@@ -15,7 +15,7 @@ function Header({insideDashBoard}) {
   }
 
   return (
-    <Navbar style={{ width: "100%",backgroundColor:'#90ee90',position:'fixed',top:'0px',zIndex:5 }} className="">
+    <Navbar style={{ width: "100%",position:'fixed',top:'0px',zIndex:1 }} className="border bg-primary">
         <Container>
           <Navbar.Brand>
             <Link to={'/'} style={{textDecoration:'none',color:'white'}} className='fw-bolder'>
